@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-seri;
+}
+
+#title {
+  background-color: #ff4c68;
+  padding: 4% 15% 8%;
+}
+
+#features {
+  padding: 4% 10% 8% 10%;
+  background-color: #fff;
+  position: relative;
+}
+
+#testimonials {
+  background-color: #ef8172;
+  color: #ffffff;
+}
+
+#press {
+  background-color: #ef8172;
+}
+
+#pricing {
+  padding: 8% 5%;
+}
+
+#cta {
+  background-color: #ff4c68;
+  padding: 4% 15%;
+}
+
+#footer {
+  padding: 5% 15%;
+  background-color: #ffffff;
+}
+
+/***** navbar *****/
+.navbar {
+  padding: 0 0 4.5rem 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/***** Title *****/
+.Download-btn {
+  margin: 8% 5% 0 0;
+}
+
+.title-img {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%
+}
+
+.title-heading-1 {
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 1.5;
+  color: white;
+}
+
+/***** features *****/
+.fe-h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.fa-fe {
+  color: #ef8172;
+  margin: 4%
+}
+
+.fa-fe:hover {
+  color: #ff4c68;
+}
+
+.p-color {
+  color: #8f8f8f;
+  font-size: 1.15rem
+}
+
+.p-bttm {
+  padding: 3% 5%;
+}
+
+/***** testimonials and press*****/
+.t-h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.t-img {
+  width: 5rem;
+  border-radius: 100%;
+  margin: 3% 0 3% 0;
+  border: 2px solid #fff;
+  margin-right: 5px;
+}
+
+.carousel-item {
+  padding: 8% 15%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 0 2% 5%;
+}
+
+/***** pricing *****/
+.card {
+  margin: 5% 3% 3% 3%;
+}
+
+.background {
+  background-color: #212529;
+  color: #ffffff;
+}
+
+.b-p {
+  padding: 2% 25%;
+}
+
+.p-font {
+  font-weight: bold;
+}
+
+.margin {
+  margin: 20px 0 30px 0;
+}
+
+.padding {
+  padding: 10px 0 0 0;
+}
+
+/*****  Call to Action  *****/
+.cta-h1 {
+  font-weight: 900;
+  color: #fff;
+  font-size: 3rem;
+  padding: 5%
+}
+
+.Download-btn-1 {
+  margin: 0 3% 8% 0;
+}
+
+.m {
+  margin: 5px 5px 10px;
+}
+
+/***** media query  *****/
+@media (max-width: 1000px) {
+  .text-cen {
+    text-align: center;
+  }
+
+  .title-img {
+    margin-top: 10%;
+    position: static;
+    transform: rotate(0);
+    width: 70%;
+  }
+
+  .card {
+    margin: 3% 10%;
+  }
+}
